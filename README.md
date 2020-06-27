@@ -1,4 +1,4 @@
-# grandma-funeral
+# grandma-funeral-invitation
 
 ## Project setup
 ```
