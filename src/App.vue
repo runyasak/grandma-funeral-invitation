@@ -2,7 +2,7 @@
   <div id="app" class="bg-primary h-screen">
     <div class="container mx-auto h-full p-4 flex flex-col justify-center items-center text-center">
       <div class="max-w-xs rounded overflow-hidden shadow-lg mb-8">
-        <img alt="Grandma Image" src="https://firebasestorage.googleapis.com/v0/b/grandma-funeral.appspot.com/o/grandma-mono.jpg?alt=media&token=61ed9474-e14e-4d84-b0ad-a2700953d909">
+        <img alt="Grandma Image" src="https://firebasestorage.googleapis.com/v0/b/grandma-funeral.appspot.com/o/grandma.jpg?alt=media&token=3c6b8240-4027-4857-9a4c-7eafadaee3da">
       </div>
 
       <p class="text-2xl text-white mb-4">ขอเชิญร่วมรับฟังสวดพระอภิธรรมศพ</p>
@@ -48,7 +48,7 @@ export default {
             type: 'bubble',
             hero: {
               type: 'image',
-              url: 'https://firebasestorage.googleapis.com/v0/b/grandma-funeral.appspot.com/o/grandma-mono.jpg?alt=media&token=61ed9474-e14e-4d84-b0ad-a2700953d909',
+              url: 'https://firebasestorage.googleapis.com/v0/b/grandma-funeral.appspot.com/o/grandma.jpg?alt=media&token=3c6b8240-4027-4857-9a4c-7eafadaee3da',
               size: 'full',
               aspectRatio: '9:16',
               aspectMode: 'cover',
