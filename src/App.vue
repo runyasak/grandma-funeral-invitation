@@ -10,6 +10,21 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data () {
+    return {
+      liffId: '1654395955-MgvA6gqm'
+    }
+  },
+  async created () {
+    await this.$liff.init({ liffId: this.liffId })
+    if (!this.$liff.isLoggedIn()) {
+      if (process.env.NODE_ENV === 'production') {
+        this.$liff.login()
+      } else {
+        this.$liff.login({ redirectUri: window.origin })
+      }
+    }
+  }
 }
 </script>
