@@ -28,3 +28,9 @@ export default {
   }
 }
 </script>
+
+<style>
+* {
+  font-family: 'Sarabun', sans-serif;
+}
+</style>
